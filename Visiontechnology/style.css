@@ -1,0 +1,460 @@
+/* html {
+    scroll-behavior: smooth;
+  } */
+.nav-bar{
+    background-image: url(/images/banner-bg.png);
+    background-size: cover;
+    
+}
+
+#cover {
+    display: inline-flex;
+}
+.sec2{
+    width: 50%;
+    margin: 100px 10px 100px 50px;
+}
+.sec2 h1{
+    font-size: 50px;
+    margin: 20px;
+}
+.sec2 p{
+    margin: 14px;
+    font-size: 20px;
+}
+.sec2 a{
+    padding: 4px 25px;
+    font-size: large;
+    background-color:whitesmoke;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 3px 4px 1px 1px;
+}
+.sec2 a:hover{
+    box-shadow: none;
+    background-color: black;
+    color: white;
+}
+.sec2 button{
+    margin-top: 30px;
+    border: none;
+}
+.se2-img img{
+    width:70%;
+    margin: 70px 10px 100px 100px;
+}
+/* header & nav section ended */
+/* aout us section started */
+#about{
+    display: flex;
+}
+#imgs{
+    background-image: url(/images/about-bg.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#imgs img {
+    width: 80%;
+    margin-top: 40px;
+}
+#about-content{
+    margin: 130px 50px 50px 20px;
+}
+#about-content h1{
+    font-size: 40px;
+    margin: 30px 10px;
+}
+#about-content h1 strong{
+    color: rgba(0, 0, 255, 0.454);
+    font-size: 35px;
+    background-color: rgba(120, 121, 123, 0.167);
+    padding: 15px;
+    border-radius: 100px;
+}
+#about-content p{
+    line-height: 30px;
+    font-size: 15px;
+}
+#about-content a{
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: none;
+    padding: 6px 30px;
+    box-shadow: 3px 4px 1px 1px;
+}
+#about-content a:hover{
+    box-shadow: none;
+    color: whitesmoke;
+    background-color: black;
+}
+#about-content button{
+    border: none;
+    margin-top: 30px;
+}
+/* about us section ended */
+/* services section start */
+#service-container{
+    background-image: url(/images/services-bg.png);
+    background-size: cover;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 40px;
+    text-align: center;
+
+}
+#service-container h1{
+    font-size: 45px;
+    /* margin: 50px 0px 10px 0px; */
+}
+#service-container strong{
+    padding: 15px 2px;
+    border-radius: 100px;
+    background-color: aliceblue;
+    color: blue;
+    font-size: 35px;
+}
+#service-container p{
+    margin-top: 30px;
+}
+#service{
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+}
+#side-tab{
+    margin: 10px 30px 50px 10px;
+}
+#service  h1{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+#service  p{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#tab-1{
+    margin-top: 30px;
+}
+#tab-1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#tab-2{
+    margin-top: 100px;
+}
+#tab-2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#tab-2 img{
+    width: 15%;
+}
+#mid-tab{
+    margin-top: 150px;
+}
+#mid-tab:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#middle-tab button {
+    margin-top: 100px;
+    border: none;
+}
+#middle-tab a{
+    padding: 8px 25px;
+    font-size: large;
+    background-color:whitesmoke;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: -5px 7px 0px 0px ;
+}
+#middle-tab a:hover{
+    box-shadow: none;
+    background-color: blue;
+    color: whitesmoke;
+}
+/* service section ended */
+/* blog section start */
+#blog{
+    width: 100%;
+    margin: 100px 0px 30px 0px;
+    text-align: center;
+}
+#blog h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+#blog strong{
+    padding: 25px 7px;
+    border-radius: 100px;
+    background-color: rgba(203, 204, 205, 0.491);
+    color: darkblue;
+}
+#cards{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+#card{
+    width: 25%;
+    margin: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+#card:hover{
+    box-shadow: 0px 0px 10px 0px;
+    transition: 1s;
+    cursor: pointer;
+}
+#card img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#card h1{
+    font-size: 22px;
+    margin: 10px;
+}
+#card p{
+    font-size: 13px;
+    line-height: 25px;
+    word-spacing: 7px;
+    margin: 10px;
+}
+#card h3{
+    font-size: small;
+    position: absolute;
+    padding: 25px 5px;
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 100%;
+    left: 43%;
+    top: -5%;
+}
+/* blog section ended */
+/* subscribe section started */
+#subscribe{
+    background-image: url(/images/subscribe.png);
+    background-size: cover;
+    margin: 50px 0px;
+    padding: 50px 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: whitesmoke;
+}
+#sub-content{
+    width: 50%;
+}
+#sub-content h1{
+    margin-left:10%;
+    font-size: 50px;
+}
+#sub-content p{
+    margin-left: 10%;
+    margin-top: 2%;
+    line-height: 30px;
+    width: 80%;
+}
+#email{
+    height: 7vh;
+    width: 25%;
+    margin-top: 3%;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    text-indent: 10px;
+}
+#email::placeholder{
+    text-indent: 10px;
+    font-weight: bolder;
+}
+#submit{
+    width: 14%;
+    height: 6vh;
+    background-color: rgb(245, 241, 241);
+    border-radius: 50px;
+    color: rgb(16, 16, 16);
+    border: none;
+    font-size: large;
+    margin: 3% 0 0 3%;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+/* subscribe section ended */
+/* testimonial section start */
+#testimonial{
+    width: 100%;
+    margin: 100px 0px;
+}
+#test-containor{
+    width: 100%;
+}
+#test-containor h2{
+    text-align: center;
+    font-size: 45px;
+    margin: 50px 0;
+}
+#test-containor strong{
+    padding: 20px 4px;
+    color: blueviolet;
+    border-radius: 100px;
+    background-color: rgba(218, 220, 222, 0.516);
+}
+#test-cards{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    justify-content: space-around;
+}
+#card1{
+    background-image: url(/images/services-bg.png);
+    color: white;
+    border-radius: 20px;
+    width: 30%;
+    padding: 30px;
+    box-shadow: 0px 0px 1px 0px;
+}
+#card1:hover{
+    background-image: none;
+    color: black;
+}
+#card1-head{
+    display: flex;
+}
+#card1-head h1{
+    font-size: 35px;
+    margin: 0px 0px 0px 20px;
+    
+}
+#card1-head h4{
+    font-size: 16px;
+    margin: 0px 0px 20px 20px;
+}
+#card1-head img{
+    margin: 0px 0px 20px 20px;
+}
+#test-p{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+
+#card2{
+    background-image: url(/images/services-bg.png);
+    background-size: cover;
+    width: 30%;
+    padding: 30px;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+#card2:hover{
+    background-image: none;
+    box-shadow: 0px 0px 1px 0px;
+    color:black;
+}
+/* testimonial section ended */
+/* footer section started */
+footer{
+    background-image: url("/images/footerbg.gif");
+    background-size: cover;
+    padding: 40px 0px 0 0;
+}
+#strip{
+    background-image: url(/images/footer-bg.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    width: 70%;
+    margin: 100px 180px;
+    text-align: center;
+    padding: 17px 0px;
+}
+#strip a {
+    display: inline;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px;
+}
+#strip a i{
+    margin-right:5px;
+}
+#lower-foot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+#links{
+    width: 20%;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+#links a{
+    display: block;
+    text-decoration: none;
+    border-bottom:2px solid rgb(208, 255, 0) ;
+    width: 25%;
+    color: rgb(245, 245, 245);
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+    
+}
+#web{
+    width: 25%;
+    margin: 0px 35px;
+}
+#web p{
+    color: rgba(240, 248, 255, 0.826);
+    line-height: 30px;
+    margin-top: 20px;
+}
+#social-media-links{
+    width: 20%;
+    margin: 0px 30px;
+}
+#social-media-links a{
+    color: whitesmoke;
+    margin: 20px 10px 10px 10px;
+    font-size: 30px;
+}
+#social-media-links h1{
+    margin-bottom: 20px;
+}
+#map{
+    width:30% ;
+    margin: 0px 10px;
+}
+#map h1{
+    margin-bottom: 20px;
+}
+iframe{
+    width: 80%;
+    height: 80%;
+}
+#copy-write{
+    width: 100%;
+    margin-bottom: 0;
+}
+#copy-write p{
+    background-color: white;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+/* footer section ended */
