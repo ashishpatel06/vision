@@ -2,7 +2,7 @@
     scroll-behavior: smooth;
   } */
 .nav-bar{
-    background-image: url(/images/banner-bg.png);
+    background-image: url(images/banner-bg.png);
     background-size: cover;
     
 }
@@ -51,7 +51,7 @@
     display: flex;
 }
 #imgs{
-    background-image: url(/images/about-bg.png);
+    background-image: url(images/about-bg.png);
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@
 /* about us section ended */
 /* services section start */
 #service-container{
-    background-image: url(/images/services-bg.png);
+    background-image: url(images/services-bg.png);
     background-size: cover;
     text-align: center;
     color: whitesmoke;
@@ -244,7 +244,7 @@
 /* blog section ended */
 /* subscribe section started */
 #subscribe{
-    background-image: url(/images/subscribe.png);
+    background-image: url(images/subscribe.png);
     background-size: cover;
     margin: 50px 0px;
     padding: 50px 0px;
@@ -321,7 +321,7 @@
     justify-content: space-around;
 }
 #card1{
-    background-image: url(/images/services-bg.png);
+    background-image: url(images/services-bg.png);
     color: white;
     border-radius: 20px;
     width: 30%;
@@ -355,7 +355,7 @@
 
 
 #card2{
-    background-image: url(/images/services-bg.png);
+    background-image: url(images/services-bg.png);
     background-size: cover;
     width: 30%;
     padding: 30px;
@@ -370,12 +370,12 @@
 /* testimonial section ended */
 /* footer section started */
 footer{
-    background-image: url("/images/footerbg.gif");
+    background-image: url("images/footerbg.gif");
     background-size: cover;
     padding: 40px 0px 0 0;
 }
 #strip{
-    background-image: url(/images/footer-bg.png);
+    background-image: url(images/footer-bg.png);
     background-size: 100%;
     background-repeat: repeat;
     width: 70%;
